@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Luiz Venturote
+description: Magento developer
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://luizventurote.github.io/index.html
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -19,9 +19,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
+   github: luizventurote
    twitter: brianmaierjr
    facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   email: luizventurote@hotmail.com
 
 google_analytics: "UA-58263416-1"

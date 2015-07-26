@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: Sobre Luiz Venturote
 ---
 
 <div class="post">
