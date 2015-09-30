@@ -77,8 +77,8 @@ MENU STYLING
 		li {
 		  width: 100%;
 		  display: block;
-		  background: seagreen;
-		  border-bottom: 2px solid lighten(seagreen, 5%);
+		  background: #28464A;
+		  border-bottom: 1px solid #29545D;
 		  font-family: $sans-serif;
 
 		  a {
@@ -117,7 +117,7 @@ MENU STYLING
   float: right;
   line-height: 2em;
   margin-top: .5em;
-  background-color: seagreen;
+  background-color: rgba(255, 255, 255, 0.18);
   border-radius: 4px;
   padding: 0 .5em;
   color: white;
@@ -128,7 +128,7 @@ MENU STYLING
 
   &:hover {
   	color: white; 
-  	background-color: darken(seagreen, 10%);
+  	background-color: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -218,7 +218,9 @@ POST STYLING
 	.postTitle {
 		text-align: center;
 		margin-top: 2rem;
-		margin-bottom: 1rem;
+		font-weight: 300;
+		font-size: 48px;
+		margin-bottom: 1.56rem;
 	}
 
 	blockquote {
@@ -232,7 +234,7 @@ POST STYLING
 			content: "";
 			position: absolute;
 			top: -1.25em;
-			background: seagreen;
+			background: $primary-color;
 			display: block;
 			height: 2px;
 			width: 150px;
@@ -243,7 +245,7 @@ POST STYLING
 			content: "";
 			position: absolute;
 			bottom: -1.25em;
-			background: seagreen;
+			background: $primary-color;
 			display: block;
 			height: 2px;
 			width: 150px;
@@ -304,8 +306,6 @@ POST NAV STYLING
 ***************/
 
 .postNav {
-	border-top: 1px solid darken(white, 10%);
-	border-bottom: 1px solid darken(white, 10%);
 	overflow: hidden;
 
 	.prev, .next {
