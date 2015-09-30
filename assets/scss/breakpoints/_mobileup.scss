@@ -11,11 +11,13 @@ html {
 }
 
 body {
-	font-family: $serif; 
+	font-family: $sans-serif; 
 	line-height: 1.75;  
 	font-size: 112.5%; // 18px base font size
 	color: $black;
-	overflow-x: hidden;
+	overflow-x: hidden;    
+	font-weight: 300;
+    letter-spacing: 0.5px;
 
 	p , ul {
 		margin: 0 0 2rem;
@@ -77,6 +79,7 @@ MENU STYLING
 		  display: block;
 		  background: seagreen;
 		  border-bottom: 2px solid lighten(seagreen, 5%);
+		  font-family: $sans-serif;
 
 		  a {
 		  	color: white;
@@ -174,6 +177,14 @@ HEADER STYLING
 	color: white;
 	padding: 0;
 	height: 3em;
+	background: $header-gradient-primary-color;
+	background: -moz-linear-gradient(left, $header-gradient-primary-color 0%, $header-gradient-secondary-color 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, $header-gradient-primary-color), color-stop(100%, $header-gradient-secondary-color));
+	background: -webkit-linear-gradient(left, $header-gradient-primary-color 0%, $header-gradient-secondary-color 100%);
+	background: -o-linear-gradient(left, $header-gradient-primary-color 0%, $header-gradient-secondary-color 100%);
+	background: -ms-linear-gradient(left, $header-gradient-primary-color 0%, $header-gradient-secondary-color 100%);
+	background: linear-gradient(to right, $header-gradient-primary-color 0%, $header-gradient-secondary-color 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$header-gradient-primary-color, endColorstr=$header-gradient-secondary-color, GradientType=1 );
 
 	.container {
 		padding: 0;
@@ -374,13 +385,17 @@ FOOTER STYLING
 	padding: 2rem 0;
 
 	.container {
-		border-top: 4px solid darken(white, 15%);
+		border-top: 1px solid darken(white, 15%);
 		padding-top: .5em;
 		@include container(90%);
 	}
 
 	.copy, .footer-links {
 		font-size: .8em; 
+	}
+
+	.footer-links {
+		margin-left: 8px;
 	}
 
 	.copy {
@@ -461,15 +476,15 @@ POST LIST STYLING
 			bottom: -2rem;
 			left: 0;
 			background: darken(white, 10%);
-			height: 2px;
-			width: 60px;
+			height: 1px;
+			width: 100%;
 		}
 
 		a {
 			text-decoration: none;
 
 			&:hover {
-				text-decoration: underline;
+				text-decoration: none;
 			}
 		}
 
@@ -481,7 +496,9 @@ POST LIST STYLING
 		}
 
 		h3 {
-			margin: 0 0 .5em;
+			margin: 10px 0 .5em;
+		    font-weight: 300;
+		    letter-spacing: 1px;
 		}
 	}
 }

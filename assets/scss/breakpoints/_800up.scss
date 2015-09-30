@@ -6,10 +6,10 @@ GLOBAL STYLES
 	padding-top: 0;
 	position: relative;
 	z-index: 1;
+	margin-top: 50px;
 
 	&:after {
 		z-index: -1; 
-		background: white;
 		content: ""; 
 		display: block;
 		width: 100%;
@@ -60,18 +60,21 @@ HEADER STYLING
 
 	.container {
 		position: relative;
-		top: 50%;
+		top: 55%;
 		-webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 		@include container(800px); 
+		text-align: center;
 	}
 
 	h1 {
 		font-size: 3em;
 		line-height: 1;
-		letter-spacing: -3px;
+		letter-spacing: 2px;
 		padding-left: 0;
+		float: none;
+		margin-bottom: 10px;
 	}
 
 	nav {
@@ -86,6 +89,9 @@ HEADER STYLING
 				background: none;
 				padding: 0 5px;
 				border: none;
+				margin: 0 10px;
+				font-family: $sans-serif;
+				text-transform: uppercase;
 
 				a {
 					color: white;
@@ -99,8 +105,8 @@ HEADER STYLING
 				}
 
 				&.current {
-					padding-bottom: .25em;
-					border-bottom: 4px solid rgba(255,255,255,.4); 
+					padding-bottom: 15px;
+					border-bottom: 1px solid rgba(255,255,255,.4); 
 				}
 			}
 		}
