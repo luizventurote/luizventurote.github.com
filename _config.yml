@@ -1,6 +1,8 @@
 title: Luiz Venturote
 description: Magento developer
 
+gems: [jekyll-paginate]
+
 url: http://luizventurote.github.io/index.html
 baseurl: ""
 paginate_path: "blog/page:num/"
@@ -14,9 +16,9 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about
+   url: https://br.linkedin.com/in/luizventurote
  - title: Contact
-   url: /contact
+   url: mailto:luizventurote@hotmail.com
 
 social:
    github: luizventurote
