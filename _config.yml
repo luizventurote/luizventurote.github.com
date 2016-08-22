@@ -16,15 +16,15 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: https://br.linkedin.com/in/luizventurote
+   url: /about
  - title: Contact
-   url: mailto:luizventurote@hotmail.com
+   url: mailto:luizventurote@gmail.com
 
 social:
    github: luizventurote
    twitter:
    facebook: luizventurote
    linkedin: https://br.linkedin.com/in/luizventurote
-   email: luizventurote@hotmail.com
+   email: luizventurote@gmail.com
 
 google_analytics: "UA-58263416-1"
