@@ -501,6 +501,13 @@ POST LIST STYLING
 		    font-weight: 300;
 		    letter-spacing: 1px;
 		}
+
+		&.last {
+
+			&:before {
+				display: none;
+			}
+		}
 	}
 }
 

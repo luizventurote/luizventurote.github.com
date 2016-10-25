@@ -224,6 +224,23 @@ FOOTER STYLES
 
 
 /***************
+TALKS PAGE STYLING
+***************/
+
+#talks {
+	.posts, .pageTitle, .pagination {
+		@include span(9 of 12);
+		float: none;
+		margin: 0 auto 1.5em;
+	}
+
+	.pageTitle {
+		margin: 2rem auto 1em;
+	}
+}
+
+
+/***************
 CONTACT PAGE STYLING
 ***************/
 
