@@ -10,8 +10,8 @@ title: About Luiz Venturote
 	<ul class="posts noList">
 
       <li>
-        <span class="date">August 31, 2017 | <a href="https://www.meetup.com/South-Florida-Magento-Meetup/" target="_blank">Latinoware</a> | Boynton Beach, FL - USA</span>
-        <h3><a class="post-link" href="https://speakerdeck.com/luizventurote/progressive-web-apps-and-magento-2" target="_blank">Magento SoFla Meetup</a></h3>
+        <span class="date">August 31, 2017 | <a href="https://www.meetup.com/South-Florida-Magento-Meetup/" target="_blank">Magento SoFla Meetup</a> | Boynton Beach, FL - USA</span>
+        <h3><a class="post-link" href="https://speakerdeck.com/luizventurote/progressive-web-apps-and-magento-2" target="_blank">Progressive Web Apps and Magento 2</a></h3>
         <p class="description"></p>
       </li>
 
