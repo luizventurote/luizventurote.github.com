@@ -33,6 +33,12 @@ title: About Luiz Venturote
         <p class="description"></p>
       </li>
 
+      <li class="last">
+        <span class="date">December 3, 2013 | <a href="http://col.ifes.edu.br/" target="_blank">Ifes - Campus Colatina</a> | Colatina, ES - Brazil</span>
+        <h3><a class="post-link" href="https://speakerdeck.com/luizventurote/responsive-web-design">Responsive Web Design</a></h3>
+        <p class="description"></p>
+      </li>
+
   </ul>
 
 </div>
