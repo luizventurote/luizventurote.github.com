@@ -1,0 +1,5 @@
+https://commercehero.io/
+https://googlechrome.github.io/samples/paymentrequest/
+https://sergiolopes.github.io/shopping/index.html
+https://gauntface.github.io/simple-push-demo/
+https://hospodarets.com/demos/web-share-api/
