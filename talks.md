@@ -10,7 +10,13 @@ title: About Luiz Venturote
 	<ul class="posts noList">
 
       <li>
-        <span class="date">October 31, 2017 | <a href="http://br.meet-magento.com/en/" target="_blank">Meet Magento Brazil</a> | São Paulo, SP - Brazil</span>
+        <span class="date">September 18, 2018 | <a href="http://br.meet-magento.com/en/" target="_blank">Meet Magento Brazil 2018</a> | São Paulo, SP - Brazil</span>
+        <h3><a class="post-link" href="https://speakerdeck.com/luizventurote/estrategias-de-conteudo-para-e-commerce-com-magento-page-builder" target="_blank">Estratégias de conteúdo para e-commerce com Magento Page Builder</a></h3>
+        <p class="description"></p>
+      </li>
+
+      <li>
+        <span class="date">October 31, 2017 | <a href="http://br.meet-magento.com/en/" target="_blank">Meet Magento Brazil 2017</a> | São Paulo, SP - Brazil</span>
         <h3><a class="post-link" href="https://speakerdeck.com/luizventurote/progressive-web-apps-and-magento-2-meet-magento-brazil" target="_blank">Progressive Web Apps and Magento 2</a></h3>
         <p class="description"></p>
       </li>
